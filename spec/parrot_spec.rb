@@ -2,14 +2,15 @@ require_relative './spec_helper'
 require_relative '../parrot.rb' # Code your solution in this file
 
 describe parrot 
-parrot_noise = "Squawk"
-
+noise = "Squawk"
+puts noise
    
   end
 
   it 'should return the default phrase, "Squawk!" when called without any arguments' do
     phrase  (parrot = "Squawk")
     expect(phrase).to eq("Squawk!")
+    put phrase
   end
 
   it 'should output the given phrase when called with an argument' do
