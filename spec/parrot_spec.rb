@@ -25,7 +25,7 @@ describe '#parrot' do
     parrot("Pretty bird!")
     
     def phrase
-      put 
+      put "Pretty bird!"
   end
 
   it 'should return the given phrase when called with an argument' do
