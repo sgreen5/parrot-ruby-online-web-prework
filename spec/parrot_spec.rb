@@ -15,7 +15,9 @@ describe '#parrot' do
     phrase = parrot
     expect(phrase).to eq("Squawk!")
     
-    
+    def parrot
+      phrase (noise = "Squawk!")
+      put ph
   end
 
   it 'should output the given phrase when called with an argument' do
