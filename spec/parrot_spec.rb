@@ -34,7 +34,7 @@ describe '#parrot' do
 
     expect(phrase).to eq("Pretty bird!")
     
-    def phrase
+    def phrase (parrot)
       parrot 
       
       
