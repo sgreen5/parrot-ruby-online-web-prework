@@ -24,13 +24,18 @@ describe '#parrot' do
     expect($stdout).to receive(:puts).with("Pretty bird!")
     parrot("Pretty bird!")
     
-    def phrase
-      put "Pretty bird!"
+    def parrot
+      phrase "Pretty bird!"
+      put #{phrase}
   end
 
   it 'should return the given phrase when called with an argument' do
     phrase = parrot("Pretty bird!")
 
     expect(phrase).to eq("Pretty bird!")
+    
+    def phrase ()
+      
+      
   end
 end
