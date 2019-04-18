@@ -7,7 +7,7 @@ describe '#parrot' do
     parrot
     
   def parrot
-    
+    noise = 
   end
 
   it 'should return the default phrase, "Squawk!" when called without any arguments' do
