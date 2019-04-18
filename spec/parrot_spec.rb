@@ -17,7 +17,7 @@ describe '#parrot' do
     
     def parrot
       phrase (noise = "Squawk!")
-      put #{phr
+      put #{noise}
   end
 
   it 'should output the given phrase when called with an argument' do
